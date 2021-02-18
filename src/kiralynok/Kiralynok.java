@@ -18,7 +18,7 @@ kir.megoldasok();
     private void megoldasok() {
         feladat4();
         feladat6();
-        
+        feladat9();
         }
 
     private void feladat4() {
@@ -33,5 +33,13 @@ kir.megoldasok();
         tabla.elhelyez(8);
         tabla.megjelenit();
     }
+
+    private void feladat9() {
+        System.out.println("9.Feladat: üres sorok és oszlopok száma: ");
+         System.out.println("Oszlopok: " + tabla.uresOszlopokSzama());
+        System.out.println("Sorok: " + tabla.uresSorokSzama());
+    }
     
-}
+        }
+    
+
